@@ -1,0 +1,46 @@
+.tabs {
+    display: flex;
+    // justify-content: center;
+    
+}
+
+.item-tab {
+    padding: 32px;
+}
+
+.content-active {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+.content-tabs {
+    border-radius: 0px 0px 25px 25px;
+    background-color: #F4F4F4;
+    padding: 50px 50px 40px 50px;
+}
+
+.content-mobile {
+    display: none;
+}
+
+
+@media screen and (max-width: 640px) {
+    .tabs {
+        display: block;
+    }
+
+    .content-tabs {
+        display: none;
+    }
+
+    .content-mobile {
+        display: block;
+    }
+}
+
+
+.active {
+    background-color: #F4F4F4;
+}

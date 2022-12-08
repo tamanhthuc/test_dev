@@ -1,0 +1,44 @@
+.container {
+    margin-top: 20px;
+}
+
+.des {
+    font-size: 21px;
+    font-weight: 400;
+    color: #000000;
+    line-height: 32px;
+}
+
+.menu {
+    ul {
+        list-style-position: inside;
+        list-style-type: disc;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 40px;
+        color: #000000;
+    }
+}
+
+.button {
+    margin-top: 35px;
+}
+
+.des_mobile {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.menu-mobile {
+    ul {
+        list-style-position: inside;
+        list-style-type: disc;
+    }
+    li {
+        font-size: 13px;
+        font-weight: 600;
+        line-height: 32px;
+    }
+}
+
